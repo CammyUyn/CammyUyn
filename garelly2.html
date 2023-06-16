@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>localhost</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="image2.css">
+ 
+</head>
+<body>
+  <div>
+  <h2><center>ALBUM ẢNH 2</center></h2>
+  <div align = "center">
+<p>
+<div class="row">
+  <div class="column">
+    <img src="pic/anime1.jpg"   onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="pic/anime2.jpg"   onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="pic/anime3.jpg"   onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="pic/anime4.png"   onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="height:648px" "width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+function myFunction(imgs) 
+{
+  
+  var expandImg = document.getElementById("expandedImg");
+  
+  var imgText = document.getElementById("imgtext");
+  
+  expandImg.src = imgs.src;
+  
+  imgText.innerHTML = imgs.alt;
+  
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+.form-group{
+ font-size: 20px;
+ padding:0px;
+}
+.form-control{
+ width:98%
+ padding:5px;
+ outline:none;
+ border:none;
+ border-radius:5px;
+ font-size:15px;
+ box-shadow: 0 0 3px blue;
+ color:orangered;
+ display:block;
+ outline:none;
+}
+.form-control:focus
+{
+    box-shadow: 0 0 3px orangered;
+}
+.button
+{
+    border:none;
+    border-radius: 4px;
+    box-shadow: 0 0 4px gray;
+    padding:5px 10px;
+    outline:none;
+}
+.button:focus
+{
+    box-shadow: 0 0 3px orangered;
+    color: orangered;
+}
+.button:disabled
+{
+    text-decoration: line-through;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+div.sign_02
+{
+
+}
+.sign_02{
+    color: black;
+    float: left;
+    margin-left: 30px;
+}
+.sign_02 form{
+    margin-left: 320px;
+    background-color: orange;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.sign_02 a{
+    text-decoration: none;
+}
+.sign_02 a.one{
+    border-right: 2px solid #34568b;
+    padding: 0px 18px;
+}
+.sign_02 input{
+    border: 2px dashed #34568b;
+    padding: 10px 20px;
+    width: 300px;
+}
+.sign_02 button{
+    background-color: #34568b;
+    color: white;
+    box-shadow: 2px 2px 10px darkgray;
+    width: 160px;
+    height: 40px;
+}
+/*.sign_02 button:hover{
+    color: #34568b;
+    background-color: white;
+    border: 2px solid #34568b;
+}
+.sign_02 a{
+    color: #34568b;
+}
+.sign_02 a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.sign_02 a.link{
+    color: gray;
+    font-size: 30px;
+}
+.sign_02 a.link:hover{
+    color: black;
+}
+*/

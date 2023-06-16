@@ -1,0 +1,25 @@
+body
+{
+	max-height: 1080px;
+	max-width: 1920px;
+	margin-bottom:30%;
+	background-color:white;
+}
+p>img
+{
+	weight:100px;
+	height:100px;
+	border-radius: 10px;
+	background-color: yellow;
+	box-shadow:  2px 2px 2px 5px blue;
+	margin:5px;
+}
+p>img:hover
+{
+	box-shadow: 5px 5px 20px red;
+	background-color: aqua;
+}
+iframe
+{
+	border: 0px;
+}

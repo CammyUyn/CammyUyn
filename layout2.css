@@ -1,0 +1,58 @@
+
+#container{
+ max-width:1920px;
+ max-height:1080px;
+ margin:0 auto;
+}
+#container > header{ 
+ background-image: url('pic/header.png');
+ background-size:100% 100%;
+ padding-bottom:25%;
+ height: 20px;
+}
+#container > nav{
+ height:30px;
+ background-color:orangered;
+ color:white;
+ text-align:center;
+ font-variant:small-caps;
+ height:100%;
+ padding-right: 10px;
+}
+#container > article{
+ width:80%;
+ background-color:#FFCC99;
+ float:left;
+}
+#container > aside{
+ height:647px;
+ width:20%;
+ background-color:orange;
+ float:right;
+ margin-top: -655px;
+}
+ #container > footer{
+ border-top:5px double orangered;
+ line-height:30px;
+ background-color:lightcyan;
+ text-align:center;
+ font-variant:muild bold;
+ clear:both;
+}
+#container > nav > a{
+ color:white;
+ text-decoration:none;
+ margin:0 10px;
+}
+#container > nav > a:hover{
+ color:yellow;
+ text-decoration:underline;
+}
+#ul {
+	background-color:grey;
+	padding-left:10px;
+}
+.logo
+{
+	padding: 5px;
+}
