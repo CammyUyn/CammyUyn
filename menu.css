@@ -40,9 +40,8 @@ body {
 .subnav-content {
   display: none;
   position: absolute;
-  left: 0;
   background-color: #FFA559;
-  width: 100%;
+  width: auto;
   z-index: 1;
 }
 
